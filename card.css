@@ -219,10 +219,11 @@ font-weight: bold;
   /* Next & previous buttons */
   .prev, .next {
     cursor: pointer;
-    position: absolute;
-    top: 50%;
+    position: relative;
+   
     width: auto;
-    margin-top: -22px;
+    float: left;
+margin-right: 10em;
     padding: 16px;
     color: white;
     font-weight: bold;
@@ -234,7 +235,7 @@ font-weight: bold;
   
   /* Position the "next button" to the right */
   .next {
-    right: ;
+  
     border-radius: 3px 0 0 3px;
   }
   
